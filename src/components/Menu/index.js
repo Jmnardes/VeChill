@@ -7,13 +7,13 @@ import Button from '../Button'
 function Menu() {
     return (
     <nav className='Menu'>
-        <a className='/'>
-            <img className='Logo' src={Logo} alt='Chill Sight' />
+        <a className='/' href='/'>
+            <img className='Logo' src={Logo} alt='VeChill' />
         </a>
 
-        <Button as='a' className='ButtonLink' href='/'>
-            Novo vídeo
-        </Button>
+        {/* <Button as='a' className='ButtonLink' href='/'>
+            Home
+        </Button> */}
     </nav>
 )};
 
