@@ -1,11 +1,12 @@
 import React from 'react';
 import { FooterBase } from './styles';
+import { FooterText } from './components/FooterText';
 
 function Footer() {
   return (
     <FooterBase>
       <p>
-        Made by
+        <FooterText>Made by</FooterText>
         {' '}
         <a href="https://www.linkedin.com/in/jmnardes/">
           JMNardes
