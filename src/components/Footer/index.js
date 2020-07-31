@@ -9,13 +9,13 @@ function Footer() {
     <FooterBase>
       <p>
         <a href="https://github.com/Jmnardes/VeChill">
-          <img className='github' src={github} alt='github' />
+          <img className="github" src={github} alt="github" title="Repositório do projeto" />
         </a>
         <a href="https://www.alura.com.br/imersao-react">
-          <img className='imersao' src={imersao} alt='imersao' />
+          <img className="imersao" src={imersao} alt="imersao" title="Imersão React da Alura" />
         </a>
         <a href="https://www.alura.com.br/imersao-react">
-          <img className='alura' src={alura} alt='alura' />
+          <img className="alura" src={alura} alt="alura" title="site Alura" />
         </a>
       </p>
     </FooterBase>
