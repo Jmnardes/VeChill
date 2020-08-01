@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import PageRoot from '../../../components/PageRoot';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
+import URL_BACKEND from '../../../config';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -11,27 +13,13 @@ function CadastroCategoria() {
     cor: '',
   };
 
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-  }
 
   useEffect(() => {
     if (window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:8080/categorias';
-      fetch(URL)
+      fetch(URL_BACKEND)
         .then(async (respostaDoServer) => {
           if (respostaDoServer.ok) {
             const resposta = await respostaDoServer.json();
@@ -57,7 +45,7 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
@@ -85,23 +73,21 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button>
-          Cadastrar
-        </Button>
+        <Link to="/">
+          <Button>
+            Cadastrar categoria
+          </Button>
+        </Link>
 
       </form>
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
-            {categoria.nome}
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>
-
-      <Link to="/">
-        Ir pra Home
-      </Link>
     </PageRoot>
   );
 }
