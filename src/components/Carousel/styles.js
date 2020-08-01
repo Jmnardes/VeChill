@@ -5,9 +5,10 @@ export const Title = styled.h3`
   font-weight: normal;
   font-size: 35px;
   line-height: 1;
-  margin-bottom: 16px;
+  margin-left: 15px;
+  margin-bottom: 10px;
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
   background: red;
   line-height: 1;
   border-radius: 4px;
@@ -36,20 +37,21 @@ export const ExtraLink = styled.a`
 export const VideoCardList = styled.ul`
   margin: 0;
   padding-left: 0;
-  padding-bottom: 32px;
+  padding-bottom: 10px;
   list-style: none;
   display: flex;
   overflow-x: auto;
   flex-direction: row;
   
   li {
-    margin-right: 16px;
+    margin-right: 2px;
   }
 `;
 
 export const VideoCardGroupContainer = styled.section`
   color: white;
   min-height: 197px;
-  margin-left: 5%;
-  margin-bottom: 16px;
+  margin-left: 1%;
+  margin-right: 0.5%;
+  margin-bottom: 10px;
 `;

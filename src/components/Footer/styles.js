@@ -1,28 +1,34 @@
 import styled from 'styled-components';
 
-
-export const FooterBase = styled.footer`
-  background: var(--black);
-  border-top: 2px solid var(--primary);
+export const FooterBase = styled.div`
+  background-color: var(--primary);
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: var(--white);
-  font-weight: bold;
-  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
+  
   @media (max-width: 800px) {
     margin-bottom: 50px;
   }
-  p{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+
+  img {
+    margin-left: 7px;
+    margin-right: 7px;
   }
-  .alura, .imersao, .github{
-    max-width: 50px;
-    max-height: 50px;
+
+  .imersao{
+    max-width: 32px;
+    max-height: 32px;
+  }
+  .wikipedia{
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .github, .linkedin, .twitter{
+    max-width: 30px;
+    max-height: 30px;
   }
 `;
+
+export default FooterBase;

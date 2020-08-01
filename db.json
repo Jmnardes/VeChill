@@ -2,17 +2,17 @@
     "categorias": [
       {
         "id": 1,
-        "titulo": "Movies",
+        "titulo": "Aberturas e Encerramentos",
         "cor": "#6BD1FF"
       },
       {
         "id": 2,
-        "titulo": "Games Nostalgy",
+        "titulo": "Animações",
         "cor": "#00C86F"
       },
       {
         "id": 3,
-        "titulo": "My top 10 Animes",
+        "titulo": "Gon Freecss",
         "cor": "#9cd33b"
       }
     ],
@@ -20,188 +20,156 @@
       {
         "id": 1,
         "categoriaId": 1,
-        "titulo": "Interestellar",
-        "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        "titulo": "Departure",
+        "url": "https://www.youtube.com/watch?v=faqmNf_fZlE",
+        "description": "Hunter X Hunter 2011 primeira abertura"
       },
       {
         "id": 2,
         "categoriaId": 1,
-        "titulo": "Shutter Island",
-        "url": "https://www.youtube.com/watch?v=5iaYLCiq5RM"
+        "titulo": "Ohayo",
+        "url": "https://www.youtube.com/watch?v=M1GJfw0xu8A",
+        "description": "Hunter X Hunter 1999 primeira abertura"
       },
       {
         "id": 3,
         "categoriaId": 1,
-        "titulo": "Hush",
-        "url": "https://www.youtube.com/watch?v=Q_P8WCbhC6s"
+        "titulo": "Taiyo wa Yoru mo Kagayaku",
+        "url": "https://www.youtube.com/watch?v=0TRs6cMZkQY",
+        "description": "Hunter X Hunter 1999 segunda abertura"
       },
       {
         "id": 4,
         "categoriaId": 1,
-        "titulo": "About Time",
-        "url": "https://www.youtube.com/watch?v=T7A810duHvw"
+        "titulo": "Kaze no uta Honda Minako",
+        "url": "https://www.youtube.com/watch?v=945ZWIibFyc",
+        "description": "Hunter X Hunter 1999 primeiro encerramento"
       },
       {
         "id": 5,
         "categoriaId": 1,
-        "titulo": "Get Out",
-        "url": "https://www.youtube.com/watch?v=DzfpyUB60YY"
+        "titulo": "Do You Feel Like I Feel",
+        "url": "https://www.youtube.com/watch?v=tV1ZT9I2pSM",
+        "description": "Hunter X Hunter 1999 segundo encerramento"
       },
       {
         "id": 6,
         "categoriaId": 1,
-        "titulo": "Joker",
-        "url": "https://www.youtube.com/watch?v=-_DJEzZk2pc"
+        "titulo": "Hotaru",
+        "url": "https://www.youtube.com/watch?v=nmBGdro615g",
+        "description": "Hunter X Hunter 1999 terceiro encerramento"
       },
       {
         "id": 7,
         "categoriaId": 1,
-        "titulo": "Gladiator",
-        "url": "https://www.youtube.com/watch?v=owK1qxDselE"
+        "titulo": "Carry On",
+        "url": "https://www.youtube.com/watch?v=fnNKm2eL67c",
+        "description": "Hunter X Hunter 1999 quarto encerramento"
       },
       {
         "id": 8,
         "categoriaId": 1,
-        "titulo": "Se7en",
-        "url": "https://www.youtube.com/watch?v=znmZoVkCjpI"
+        "titulo": "Just Awake",
+        "url": "https://www.youtube.com/watch?v=ELuVDnlB8PE",
+        "description": "Hunter X Hunter 2011 primeiro encerramento"
       },
       {
         "id": 9,
         "categoriaId": 1,
-        "titulo": "Looper",
-        "url": "https://www.youtube.com/watch?v=2iQuhsmtfHw"
+        "titulo": "Hunting For Your Dream",
+        "url": "https://www.youtube.com/watch?v=tK-d2LJlaaQ",
+        "description": "Hunter X Hunter 2011 segundo encerramento"
       },
       {
         "id": 10,
         "categoriaId": 1,
-        "titulo": "Parasite",
-        "url": "https://www.youtube.com/watch?v=5xH0HfJHsaY"
+        "titulo": "Reason",
+        "url": "https://www.youtube.com/watch?v=wnOGkmMDMuM",
+        "description": "Hunter X Hunter 2011 terceiro encerramento"
       },
       {
         "id": 11,
         "categoriaId": 1,
-        "titulo": "Hacksaw Ridge",
-        "url": "https://www.youtube.com/watch?v=s2-1hz1juBI"
+        "titulo": "Nagaraboshi Kirari",
+        "url": "https://www.youtube.com/watch?v=kc6MHszfb2I",
+        "description": "Hunter X Hunter 2011 quarto encerramento"
       },
       {
         "id": 12,
-        "categoriaId": 2,
-        "titulo": "CTR - Crash Team Racing",
-        "url": "https://www.youtube.com/watch?v=3O8FK5d67cM"
+        "categoriaId": 1,
+        "titulo": "Hyori Ittai",
+        "url": "https://www.youtube.com/watch?v=MCYm453CE6Y",
+        "description": "Hunter X Hunter 2011 quinto encerramento"
       },
       {
         "id": 13,
         "categoriaId": 2,
-        "titulo": "Shadow of the Colossus",
-        "url": "https://www.youtube.com/watch?v=pdZQ98mWeto"
+        "titulo": "Phantom Rouge",
+        "url": "https://www.youtube.com/watch?v=600XzcMCsa4&t=26s",
+        "description": "Hunter X Hunter O Filme - Phantom Rouge"
       },
       {
         "id": 14,
         "categoriaId": 2,
-        "titulo": "Conkers Bad Fur Day",
-        "url": "https://www.youtube.com/watch?v=ofhaO7GrSMk&list=PLAdHZz43zz8Bdij79qozLqmHycLA4aXL0"
+        "titulo": "A Última Missão",
+        "url": "https://www.youtube.com/watch?v=FMlSmkOA38A",
+        "description": "Hunter X Hunter O Filme 2 - A Última Missão"
       },
       {
         "id": 15,
         "categoriaId": 2,
-        "titulo": "Resident Evil 2",
-        "url": "https://www.youtube.com/watch?v=kYmeNHhwQd4"
+        "titulo": "Episódio piloto",
+        "url": "https://www.youtube.com/watch?v=tBC5kYdyaAs",
+        "description": "Hunter X Hunter OVA 1998 - Episódio piloto"
       },
       {
         "id": 16,
         "categoriaId": 2,
-        "titulo": "Legend of Zelda - Ocarina of Time",
-          "url": "https://www.youtube.com/watch?v=_NElFLzgdUs"
+        "titulo": "1999 Anime completo",
+        "url": "https://www.youtube.com/watch?v=2b8SfM9GseQ&list=PLLud1jqdyLvH6FB1bj2oaRdfEFRklq2JC",
+        "description": "Hunter X Hunter 1999 Completo"
       },
       {
         "id": 17,
         "categoriaId": 2,
-        "titulo": "Yu-Gi-Oh - Forbidden Memories",
-        "url": "https://www.youtube.com/watch?v=Zqy7Q_2FRGY"
+        "titulo": "2011 OVA Gennei Ryodan e Greed Island",
+        "url": "https://www.youtube.com/watch?v=Dw_e4eFD0wM&list=PL6D0B240C9CB80D0E",
+        "description": "Hunter X Hunter 1999 OVA Gennei Ryodan e Greed Island Completo"
       },
       {
         "id": 18,
-        "categoriaId": 2,
-        "titulo": "Grand Chase",
-        "url": "https://www.youtube.com/watch?v=I7oHgR4s1rc"
+        "categoriaId": 3,
+        "titulo": "Desconstrução de Gon Freecss",
+        "url": "https://www.youtube.com/watch?v=Xtul1EAu-K0",
+        "description": "Quem é Gon Freecs? Nesse vídeo, comentei a trajetória e personalidade do protagonista de Hunter x Hunter e como ele desconstrói o protagonista comum enquanto solidifica os efeitos da sua própria personalidade."
       },
       {
         "id": 19,
-        "categoriaId": 2,
-        "titulo": "Priston Tale",
-        "url": "https://www.youtube.com/watch?v=iP0LwQRCo6M"
+        "categoriaId": 3,
+        "titulo": "Gon Freecss: Character Analysis",
+        "url": "https://www.youtube.com/watch?v=TPPSXtarDGo",
+        "description": "A character analysis of Gon Freecss and his role in the story of Hunter x Hunter."
+      },
+      {
+        "id": 19,
+        "categoriaId": 3,
+        "titulo": "Gon vs Neferupitou",
+        "url": "https://www.youtube.com/watch?v=mDE8vdhfX14&t=181s",
+        "description": "A transformação de Gon para enfrentar neferupitou."
       },
       {
         "id": 20,
-        "categoriaId": 2,
-        "titulo": "Super Mario Kart",
-        "url": "https://www.youtube.com/watch?v=EcCP255DORQ"
+        "categoriaId": 3,
+        "titulo": "Gon vs Morel",
+        "url": "https://www.youtube.com/watch?v=AIiQRHsntck",
+        "description": "Teste de Morel para verificar se Gon é capaz de participar do time."
       },
       {
         "id": 21,
-        "categoriaId": 2,
-        "titulo": "Half-Life",
-        "url": "https://www.youtube.com/watch?v=qcdHIn4wEcE"
-      },
-      {
-        "id": 22,
         "categoriaId": 3,
-        "titulo": "Hunter x Hunter",
-        "url": "https://www.youtube.com/watch?v=faqmNf_fZlE"
-      },
-      {
-        "id": 23,
-        "categoriaId": 3,
-        "titulo": "Kimetsu no Yaiba",
-        "url": "https://www.youtube.com/watch?v=pmanD_s7G3U"
-      },
-      {
-        "id": 24,
-        "categoriaId": 3,
-        "titulo": "Death Note",
-        "url": "https://www.youtube.com/watch?v=yI6v5-61VRU"
-      },
-      {
-        "id": 25,
-        "categoriaId": 3,
-        "titulo": "Haikyuu",
-        "url": "https://www.youtube.com/watch?v=XS-N8KfZ5EU"
-      },
-      {
-        "id": 26,
-        "categoriaId": 3,
-        "titulo": "Boku no Hero",
-        "url": "https://www.youtube.com/watch?v=-77UEct0cZM"
-      },
-      {
-        "id": 27,
-        "categoriaId": 3,
-        "titulo": "One Piece",
-        "url": "https://www.youtube.com/watch?v=-nPwqO30ZOQ"
-      },
-      {
-        "id": 28,
-        "categoriaId": 3,
-        "titulo": "Soul Eater",
-        "url": "https://www.youtube.com/watch?v=zzJ8U8OtEsE"
-      },
-      {
-        "id": 29,
-        "categoriaId": 3,
-        "titulo": "Sword Art Online",
-        "url": "https://www.youtube.com/watch?v=UHu-pgc-0pM"
-      },
-      {
-        "id": 30,
-        "categoriaId": 3,
-        "titulo": "No Game No Life",
-        "url": "https://www.youtube.com/watch?v=6CBp4qylX6I"
-      },
-      {
-        "id": 31,
-        "categoriaId": 3,
-        "titulo": "Tate no Yuusha no Nariagari",
-        "url": "https://www.youtube.com/watch?v=jZvFEtR8RH0"
+        "titulo": "Gon vs Hisoka",
+        "url": "https://www.youtube.com/watch?v=Txl2imn11bM",
+        "description": "Gon enfrenta Hisoka na torre celestial para devolver a placa do exame hunter."
       }
     ]
   }

@@ -34,7 +34,7 @@ function CadastroCategoria() {
   return (
     <PageRoot>
       <h1>
-        cadastro de categoria:
+        Cadastre uma nova categoria
         {values.nome}
       </h1>
 
@@ -50,7 +50,7 @@ function CadastroCategoria() {
       >
 
         <FormField
-          label="Nome"
+          label="Título"
           type="text"
           value={values.nome}
           name="nome"
