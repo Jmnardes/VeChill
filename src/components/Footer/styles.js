@@ -1,16 +1,13 @@
 import styled from 'styled-components';
 
 export const FooterBase = styled.div`
-  background-color: var(--primary);
+  background-color: var(--blackMoreLighter);
+  border-top: 1px solid var(--primary-darker);
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 15px;
+  padding-top: 14px;
   padding-bottom: 15px;
   text-align: center;
-  
-  @media (max-width: 800px) {
-    margin-bottom: 50px;
-  }
 
   img {
     margin-left: 7px;

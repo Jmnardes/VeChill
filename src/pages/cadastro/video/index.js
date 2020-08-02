@@ -1,11 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
+import styled from 'styled-components';
 import PageRoot from '../../../components/PageRoot';
 import useForm from '../../../hooks/useForm';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import videosRepository from '../../../repositories/videos';
 import categoriasRepository from '../../../repositories/categorias';
+
+const ButtonStyle = styled.button`
+  border: none;
+  background-color: var(--blackMoreLighter);
+  float: right;
+`;
 
 function CadastroVideo() {
   const history = useHistory();
@@ -26,16 +33,15 @@ function CadastroVideo() {
   }, []);
 
   return (
-    <PageRoot>
+    <PageRoot paddingAll={1}>
       <h1>Cadastre um novo vídeo</h1>
 
       <form onSubmit={(event) => {
         event.preventDefault();
         // alert('Video Cadastrado com sucesso!!!1!');
 
-        const categoriaEscolhida = categorias.find((categoria) => {
-          return categoria.titulo === values.categoria;
-        });
+        // eslint-disable-next-line max-len
+        const categoriaEscolhida = categorias.find((categoria) => categoria.titulo === values.categoria);
 
         videosRepository.create({
           titulo: values.titulo,
@@ -71,21 +77,15 @@ function CadastroVideo() {
           suggestions={categoryTitles}
         />
 
-        <Button type="submit">
+        <Button className="btnCadastrarVideo" type="submit">
           Cadastrar vídeo
         </Button>
+        <ButtonStyle>
+          <Button className="btnNovaCategoria" as={Link} to="/cadastro/categoria">
+            Nova categoria
+          </Button>
+        </ButtonStyle>
       </form>
-
-      <br />
-
-      <Link to="/cadastro/categoria">
-        <Button>
-          Nova categoria
-        </Button>
-      </Link>
-
-      <br />
-      <br />
     </PageRoot>
   );
 }

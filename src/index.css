@@ -5,9 +5,10 @@
 
 :root {
   --primary: #0D9B00;
-  --primary-darker: #0b8000af;
+  --primary-darker: #0a7400e7;
   --black: #000000;
-  --blackLighter: #9E9E9E;
+  --blackLighter: #030303f8;
+  --blackMoreLighter: #0a0a0ae8;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5; 
   --white: #FFFFFF;

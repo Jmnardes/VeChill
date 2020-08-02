@@ -32,7 +32,7 @@ function CadastroCategoria() {
   }, []);
 
   return (
-    <PageRoot>
+    <PageRoot paddingAll={1}>
       <h1>
         Cadastre uma nova categoria
         {values.nome}
